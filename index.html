@@ -1,34 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1YGJHDR2PZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-1YGJHDR2PZ');
-    </script>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zoziologie</title>
-    <meta name="description" content="My personal website for bird related stuff." />
-    <meta name="author" content="Raphaël Nussbaumer" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-
-    <!-- Font Awesome icons (free version) -->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css" />
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-  </head>
-  <body id="page-top">
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Redirecting</title>
+  <script>
+    (() => {
+      if (location.hostname !== "zoziologie.raphaelnussbaumer.com" || location.pathname !== "/") return;
+      const url = new URL("https://raphaelnussbaumer.com/");
+      url.search = location.search;
+      url.hash = location.hash;
+      location.replace(url.href);
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="https://raphaelnussbaumer.com/">Continue</a></p>
+</body>
 </html>

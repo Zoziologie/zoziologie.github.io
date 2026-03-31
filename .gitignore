@@ -1,16 +1,3 @@
-biolovision2ebird/
-birding-with-ebird/
-check-checklists/
-ebird2latex/
-global-rare-ebird/
-merge2hotspot/
-see-your-observations/
-view-geojson/
-african-bird-atlas-api/
-kenyan-bird-atlas-comparison/
-KenyaBirdAtlasViz/
-map-csv/
 .DS_Store
 node_modules/
 dist/
-.vite/

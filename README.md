@@ -1,25 +1,8 @@
-# zoziologie.github.io
+# zoziologie.raphaelnussbaumer.com
 
-Main website built with Vite + Vue.
+This repository serves a minimal GitHub Pages site that redirects only the root path.
 
-## Development
+- Redirected: `https://zoziologie.raphaelnussbaumer.com/` -> `https://raphaelnussbaumer.com/`
+- Not redirected: any non-root path (for example `/global-rare-ebird/`)
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Content model
-
-Homepage content is centralized in `src/data/site.js`.
-
-- `navItems`: navbar links (`label`, `targetId`)
-- `webapps`: cards (`title`, `url`, `description`, `image`, optional `hoverImage`, `alt`)
-- `footer.socialLinks`: social buttons (`label`, `url`, `icon` or `image`)
+To change the destination, edit `ROOT_REDIRECT_TARGET` in `index.html`.
