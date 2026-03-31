@@ -1,0 +1,118 @@
+export const siteContent = {
+  brandName: 'Zoziologie',
+  mastheadTagline: 'Learn more about bird using web apps',
+  navItems: [
+    { label: 'Webapps', targetId: 'webapp' },
+    { label: 'About me', targetId: 'about' },
+    { label: 'BMM', targetId: 'BMM' },
+  ],
+  webapps: [
+    {
+      id: 'see-your-observations',
+      title: 'See your observations',
+      description: 'Visualize all your eBird observations on a map.',
+      url: 'https://zoziologie.raphaelnussbaumer.com/see-your-observations/',
+      image: '/assets/sYO_gif_static.png',
+      hoverImage: '/assets/sYO.gif',
+      alt: 'see your observations gif',
+    },
+    {
+      id: 'ornitho2ebird',
+      title: 'ornitho2ebird',
+      description: 'Convert your data from any biolovision website (ornitho, faune-) to eBird.',
+      url: 'https://ornitho2ebird.com/',
+      image: '/assets/b2e_gif_static.png',
+      hoverImage: '/assets/b2e.gif',
+      alt: 'ornitho2ebird gif',
+    },
+    {
+      id: 'merge2hotspot',
+      title: 'Merge2Hotspot',
+      description: 'Find existing hotspots for your personal locations on eBird..',
+      url: 'https://zoziologie.raphaelnussbaumer.com/merge2hotspot/',
+      image: '/assets/m2h_gif_static.png',
+      hoverImage: '/assets/m2h.gif',
+      alt: 'merge2hotspot gif',
+    },
+    {
+      id: 'global-rare-bird',
+      title: 'Global Rare Bird',
+      description: 'See all rare birds from eBird on a map.',
+      url: 'https://zoziologie.raphaelnussbaumer.com/global-rare-ebird/',
+      image: '/assets/grb_static.png',
+      hoverImage: '/assets/grb.gif',
+      alt: 'global rare bird gif',
+    },
+    {
+      id: 'ebird-trip-planner',
+      title: 'eBird Trip Planner',
+      description: 'Maps and table to plan a birding trip.',
+      url: 'https://zoziologie.raphaelnussbaumer.com/eBirdTripPlanner/create',
+      image: '/assets/bwe_static.png',
+      alt: 'eBird Trip Planner preview',
+    },
+    {
+      id: 'ebird2latex',
+      title: 'eBird2LaTeX',
+      description: 'Generate custom PDF checklist with eBird occurence data',
+      url: 'https://zoziologie.raphaelnussbaumer.com/ebird2latex/',
+      image: '/assets/e2l_gif_static.png',
+      hoverImage: '/assets/e2l.gif',
+      alt: 'eBird2LaTeX gif',
+      disabled: true,
+    },
+  ],
+  about: {
+    title: 'About me',
+    intro:
+      "Hi! My name is Raphaël, I'm passionate about birds, data and sharing! I designed these webapps to make birding more fun and make it easy to visualize and share bird related data!",
+    story:
+      'goes back to my childhood, when my brother made fun of my passion for birds (“oiseaux” in French) by calling it “zozio”. As I grew older and pursued scientific studies, I tried to combine my passion with birds (zozio) with my scientific background (logos), that gave birth to a new discpline: zoziologie!',
+    button: {
+      url: 'https://github.com/Zoziologie/',
+      label: 'Zoziologie',
+      iconClass: 'fab fa-fw fa-github',
+    },
+  },
+  bmm: {
+    title: 'Bird Migration Modeling',
+    url: 'http://bmm.raphaelnussbaumer.com/',
+    image: '/assets/BMM-web.gif',
+    imageAlt: 'BMM gif',
+    subtitle: 'Quantifying bird migration with weather radars',
+    description:
+      'In my work, I study the spatio-temporal patterns of nocturnal bird migration using weather radar data.',
+  },
+  footer: {
+    heading: 'Get in touch',
+    socialLinks: [
+      { label: 'Facebook', url: 'https://www.facebook.com/rafnuss', icon: 'fab fa-fw fa-facebook-f' },
+      { label: 'Twitter', url: 'https://twitter.com/rafnuss', icon: 'fab fa-fw fa-twitter' },
+      { label: 'GitHub', url: 'https://github.com/rafnuss', icon: 'fab fa-fw fa-github' },
+      {
+        label: 'Google Scholar',
+        url: 'https://scholar.google.ch/citations?user=lZI8fy8AAAAJ',
+        icon: 'ai ai-google-scholar',
+      },
+      {
+        label: 'ResearchGate',
+        url: 'https://www.researchgate.net/profile/Raphael-Nussbaumer',
+        icon: 'ai ai-researchgate',
+      },
+      { label: 'ORCID', url: 'https://orcid.org/0000-0002-8185-1020', icon: 'ai ai-orcid' },
+      { label: 'iNaturalist', url: 'https://www.inaturalist.org/people/152365', icon: 'ai ai-inaturalist' },
+      {
+        label: 'eBird',
+        url: 'https://ebird.org/profile/NDk3NjE1/',
+        image: '/assets/ebird_e_w.svg',
+      },
+      { label: 'Email', url: 'mailto:rafnuss@gmail.com', icon: 'fas fa-fw fa-envelope' },
+    ],
+  },
+  copyright: {
+    owner: 'Zoziologie',
+    year: '2021',
+    sourceLabel: 'StartBootstrap/startbootstrap-freelancer',
+    sourceUrl: 'https://github.com/StartBootstrap/startbootstrap-freelancer',
+  },
+};
